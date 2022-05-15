@@ -1,0 +1,17 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.images
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img
+{
+    width:40%;
+    height: 400px;
+}

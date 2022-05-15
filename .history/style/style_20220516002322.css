@@ -1,0 +1,57 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+}
+body
+{
+    background-image:url("../images/dice5.jpg");
+    background-size: contain;
+}
+.images
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.img
+{
+    flex-basis: 300px;
+    height: 300px;
+    border-radius:30px;
+}
+.button
+{
+    text-align: center;
+}
+#playbtn
+{
+    width:250px;
+    height: 60px;
+    background-image: linear-gradient(to right,rgba(210, 31, 61, 0.526),aqua);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font:bold 25px sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#playbtn:hover
+{
+    opacity: 0.8;
+}
+.result1
+{
+    text-align: center;
+    margin-top: 30px;
+    font:bold 50px sans-serif;
+    color:rgb(20, 220, 147);
+}
+.result2
+{
+    text-align: center;
+    margin-top: 20px;
+    font:bold 50px sans-serif;
+    color:crimson;
+}

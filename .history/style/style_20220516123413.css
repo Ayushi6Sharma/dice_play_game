@@ -66,20 +66,15 @@ body
     font:bold 30px sans-serif;
     color:aqua;
 }
-@media screen and (max-width:569px)
+@media screen and (max-width:468px)
+@media screen and (max-width:768px) {
+    .img
+    {
+        padding-top: 20px;
+    }
+    .img
 {
-    .img
-    {
-        padding-top: 20px;
-        flex-basis: 150px;
-        height: 150px;
-    }
+    flex-basis: 150px;
+    height: 150px;
 }
-@media screen and (min-width:570px) and (max-width:768px) {
-    .img
-    {
-        padding-top: 20px;
-        flex-basis: 200px;
-        height: 200px;
-    }
 }
